@@ -1,0 +1,39 @@
+﻿How Web Works Exercise
+What is HTTP?
+                                ​ (Hyper Text Transfer Protocol) How browsers get data from/send data to servers. How they communicate.
+
+                                ​ What is a URL?
+                                ​ (Uniform Resource Locator) An address for internet resource.
+                                ​ 
+                                ​ What is DNS?
+                                ​    (Domain Name System) A system that takes URLs and turns them into IP addresses.
+                                ​ 
+                                ​ What is a query string?
+   A query string is a part of a uniform resource locator (URL) that assigns values to specified parameters.
+                                ​ 
+                                ​ List two HTTP Verbs and their use cases.
+                                ​    GET method- GETs some data from the server. Retrieves. No side effects (does not change server data)
+	Arguments are passed along in query string
+                                ​    POST method - send some data to the server (pages that change data on server)
+	Side effects (changes data on a server)
+	Arguments sent as a body of the request
+                                ​ 
+                                ​ What is an HTTP request?
+                                ​    A request from a client to a server which follows the HTTP protocol (a request for HTML)
+                                ​ 
+                                ​ What is an HTTP response?
+                                ​    A response from a server to a client which follows the HTTP protocol (sending back HTML/CSS/JS/etc)
+                                ​ 
+                                ​ What is an HTTP header? Give a couple examples of request and response headers you have seen.
+                                    ​    Headers provide additional information about the request or the response.
+                                    ​ Examples:
+                                ​    Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+                                ​    Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control
+                                ​ 
+                                ​ What happens when you type a URL in a browser?
+                                ​    1. Your browser converts the name into an IP address via DNS
+                                ​    2. Your browser makes a request to that IP address, including headers (info about browser, any previous cookies, and other things)
+                                ​    3. The server sends a response (typically, HTML, with a status code (200 if successful)
+                                ​    4. The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
+                                ​    5. The browser makes separate HTTP requests for those resources and receives response from the server for each
+
